@@ -3,6 +3,7 @@ import Typography from '@mui/material/Typography';
 import Container from "@mui/material/Container"
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
+import NoteCard from '../components/NoteCard';
 
 
 function Notes() {
@@ -17,10 +18,10 @@ function Notes() {
  
   return (
     <Container>
-      <Grid container>
+      <Grid container spacing={2}>
           {notes.map(note => (
             <Grid item key={note.id} xs={12} md={6} lg={4}>
-              <Paper>{note.title}</Paper>
+              <NoteCard note={note} />
             </Grid>
             ))}
       </Grid>
