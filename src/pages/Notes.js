@@ -18,23 +18,13 @@ function Notes() {
   return (
     <Container>
       <Grid container>
-        <Grid item md={3}>
-          <Paper>1</Paper>
-        </Grid>
-        <Grid item md={3}>
-          <Paper>2</Paper>
-        </Grid>
-        <Grid item md={3}>
-          <Paper>3</Paper>
-        </Grid>
-        <Grid item md={3}>
-          <Paper>4</Paper>
-        </Grid>
+          {notes.map(note => (
+            <Grid item key={note.id} xs={12} md={6} lg={4}>
+              <Paper>{note.title}</Paper>
+            </Grid>
+            ))}
       </Grid>
-
-      {notes.map(note => <p key={note.id}>{note.title}</p>)}
     </Container>
-
   )
 
 }
