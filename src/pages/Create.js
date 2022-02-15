@@ -16,7 +16,9 @@ import { useHistory } from "react-router-dom";
 const style = {
     marginTop: 5,
     marginBottom: 5,
-    display: "block"
+    display: "block",
+    width: "50vw",
+    maxWidth: "100%"
 }
 
 function Create() {
