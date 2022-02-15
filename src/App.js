@@ -1,6 +1,7 @@
 import React from 'react';
 import Create from './pages/Create';
 import Notes from './pages/Notes';
+import Layout from './components/Layout';
 import {
   BrowserRouter as Router,
   Switch,
@@ -11,14 +12,16 @@ import {
 function App() {
   return (
     <Router>
-      <Switch>
-        <Route path="/notes">
-          <Notes />
-        </Route>
-        <Route path="/">
-          <Create />
-        </Route>
-      </Switch>
+      <Layout>
+        <Switch>
+          <Route path="/">
+            <Notes />
+          </Route>
+          <Route path="/create">
+            <Create />
+          </Route>
+        </Switch>
+      </Layout>
     </Router>
   );
 }

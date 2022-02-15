@@ -9,13 +9,13 @@ import { DeleteOutlined } from '@mui/icons-material';
 import { Typography } from '@mui/material';
 
 
-function NoteCard({ note }) {
+function NoteCard({ note, handleDelete }) {
   return (
       <div>
           <Card elevation={1}>
               <CardHeader 
                 action={
-                    <IconButton onClick={() => console.log("delete", note.title)}>
+                    <IconButton onClick={() => handleDelete(note.id)}>
                         <DeleteOutlined />
                     </IconButton>
                 }

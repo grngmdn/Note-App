@@ -16,12 +16,21 @@ function Notes() {
     .then(data => setNotes(data))
   }, [])
  
+  const handleDelete = async (id) => {
+    await fetch("http://localhost:3000/notes/" + id, {
+      method: "DELETE"
+    })
+
+    const newNotes = notes.filter(note => notes.id != id)
+    setNotes(newNotes)
+  }
+
   return (
     <Container>
       <Grid container spacing={2}>
           {notes.map(note => (
             <Grid item key={note.id} xs={12} md={6} lg={4}>
-              <NoteCard note={note} />
+              <NoteCard note={note} handleDelete={handleDelete}/>
             </Grid>
             ))}
       </Grid>
