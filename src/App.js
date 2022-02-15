@@ -5,8 +5,7 @@ import Layout from './components/Layout';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 function App() {
@@ -14,7 +13,7 @@ function App() {
     <Router>
       <Layout>
         <Switch>
-          <Route path="/">
+          <Route exact path="/">
             <Notes />
           </Route>
           <Route path="/create">

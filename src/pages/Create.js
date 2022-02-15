@@ -37,8 +37,8 @@ function Create() {
         setDetailsError(false)
 
         return(
-            title == "" ? setTitleError(true) : null,
-            details == "" ? setDetailsError(true) : null,
+            title === "" ? setTitleError(true) : null,
+            details === "" ? setDetailsError(true) : null,
             title && details ? 
                 fetch("http://localhost:3000/notes", 
                 {
@@ -91,7 +91,7 @@ function Create() {
                 fullWidth
                 required
                 multiline
-                rows={4}
+                rows={5}
                 error={detailsError}
                 sx={{
                     ...style

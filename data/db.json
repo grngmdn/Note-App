@@ -11,6 +11,54 @@
       "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.",
       "category": "work",
       "id": 2
+    },
+    {
+      "title": "wregwgw",
+      "details": "ewrgagdfgmnsbdgkds fgm,dnfgm dnf,gn,dmfngmdnfg,ndf,mgn,mzdnfg,mdfgdfhdfh",
+      "category": "reminders",
+      "id": 3
+    },
+    {
+      "title": "Thanks for this whole series. ",
+      "details": "Extremely well constructed course - this is another highly professional piece of work that is invaluable for anyone to pick up material ui and react. If you know nothing about react, this is well worth the time and effort to follow as you made material more relevant by its use with react, its templating, props dynamic parameterisation and more. I like also the 'notes' project and its use over that of what others may have chosen a 'todo' example. Notes is a nice angle and far more useable for other projects - like when you sell a house it has to be decorated in a way people can see themselves living there, by this you've made it easy to see how material ui and react can be used together to build bigger projects.\n",
+      "category": "money",
+      "id": 5
+    },
+    {
+      "title": "Your series was perfect for it!!!",
+      "details": "Hello, I went through all 18 lectures and learned a ton of great information. Thank you very much. Recently Material-Ui put out @MUI as a newer theme/component set. My question is will there be a conflict using a few items from each? For example, expand has been deprecated with the newer Accordion but you might still have other, older material-ui components. Many thanks for your help, M\n",
+      "category": "work",
+      "id": 6
+    },
+    {
+      "title": "Riza",
+      "details": "Thank you! I have learn so much from your Material UI series.\n",
+      "category": "money",
+      "id": 7
+    },
+    {
+      "title": "Full of knowledge",
+      "details": "Thanks a lot, Shaun. As usual, simple and clean. If I want to use some tool or framework, I just see if you have a playlist on that framework and if you do not have one, I go to read the documentation. \n",
+      "category": "money",
+      "id": 8
+    },
+    {
+      "title": "mr. miyagi",
+      "details": "this is sooo cooool",
+      "category": "reminders",
+      "id": 9
+    },
+    {
+      "title": "fdsgfsdg",
+      "details": "sgsdgaseetwet",
+      "category": "work",
+      "id": 10
+    },
+    {
+      "title": "dsdgsdg",
+      "details": "sdg`sdg`sd",
+      "category": "work",
+      "id": 11
     }
   ]
 }
